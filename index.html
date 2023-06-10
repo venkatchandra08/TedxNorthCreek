@@ -170,7 +170,7 @@
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
-                <span id = "msg">Hello</span>
+                <span id = "msg"></span>
             </div>
         </div>
     </div>
@@ -211,11 +211,18 @@
 <script>
   const scriptURL = '<https://script.google.com/macros/s/AKfycbz0m2lKKa7nGbwa1M71MwPgKtiCt7sfc5Pm11swiVNSxMt2MPYWnv6vO4Psf4su2YxF/exec>'
   const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementByID("msg")
 
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
       .catch(error => console.error('Error!', error.message))
   })
 </script>
