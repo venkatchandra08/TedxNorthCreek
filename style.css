@@ -398,20 +398,6 @@ nav .fas{
 }
 
 /* Add styles for the certifications section here */
-#certifications {
-    padding: 60px 0;
-    }
-
-.certification-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.certification-list li {
-    margin-bottom: 20px;
-    padding: 10px;
-}
 .academy badge {
     padding: 10px;
 }
