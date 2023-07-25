@@ -398,6 +398,10 @@ nav .fas{
 }
 
 /* Add styles for the certifications section here */
+#certifications{
+    padding: 80px 0;
+    color: #ababab;
+}
 .academy badge {
     padding: 10px;
 }
