@@ -126,7 +126,7 @@ p{
     margin: 10px 0;
 } 
 .tab-contents ul li span{
-    color: #b15de2;
+    color: #EB0028;
     font-size: 16px;
     line-height: 1.7;
 }
@@ -276,7 +276,7 @@ p{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #a628f0;
+    color: #EB0028;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -292,12 +292,12 @@ p{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #a628f0;
+    color: #EB0028;
     transform: translateY(-5px);
 }
 btn.btn2{
     display: inline-block;
-    background: #a628f0;
+    background: #EB0028;
 }
 .contact-right form{
     width: 100%;
