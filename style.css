@@ -76,13 +76,22 @@ nav ul li a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.about-col-1{
+.about-col-1 {
     flex-basis: 35%;
+    text-align: center; /* Center the title */
 }
-.about-col-1 img{
+
+.speaker-title {
+    color: #EB0028;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-col-1 img {
     width: 100%;
     border-radius: 15px;
 }
+
 .about-col-2{
     flex-basis: 60%;
 }
@@ -332,7 +341,7 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-with: 600px){
+@media only screen and (max-width: 600px){
     #header{
         background-image: url(Stars.gif);
     }
@@ -342,10 +351,6 @@ nav .fas{
     }
     .header-text h1{
         font-size: 30px;
-    }
-    nav .fas{
-        display: block;
-        font-size: 25px;
     }
     nav ul{
         background: #EB0028;
