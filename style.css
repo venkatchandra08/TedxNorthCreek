@@ -83,7 +83,7 @@ nav ul li a:hover::after{
 
 .speaker-title {
     color: #EB0028;
-    font-size: 24px;
+    font-size: 60px;
     margin-top: 10px; /* Adjust margin to add space between image and title */
 }
 
