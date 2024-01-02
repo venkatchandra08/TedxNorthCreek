@@ -70,22 +70,24 @@ nav ul li a:hover::after{
 #about {
     padding: 80px 0;
     color: #ababab;
+    text-align: center;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .row {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center; /* Center the columns vertically */
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .about-col-1 {
     flex-basis: 35%;
-    margin-right: 30px; /* Add margin to create space between image and text */
+    margin-right: 30px;
 }
 
 .about-col-1 img {
@@ -105,13 +107,17 @@ nav ul li a:hover::after{
 }
 
 .about-text {
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
+.tab-titles {
+    text-align: left; /* Align tab titles to the left */
+}
+
 .tab-links {
-    font-size: 24px; /* Increase font size */
+    font-size: 24px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -119,9 +125,10 @@ nav ul li a:hover::after{
 
 .tab-contents ul li span {
     color: #EB0028;
-    font-size: 20px; /* Increase font size */
+    font-size: 20px;
     line-height: 1.7;
 }
+
 
 .tab-contents{
     display: none;
